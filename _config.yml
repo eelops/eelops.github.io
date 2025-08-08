@@ -1,10 +1,10 @@
 title: "EPZ BLOGS"
 author: "Eelops"
-description: "Notebook Blogs" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+description: "A freshman's notebook for CS & programming. Sharing what I learn, code snippets, and simple explanations to help others (and myself) understand better." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
-email: "kohrei_hz@gamil.com"
+email: "1582612321@qq.com"
 #twitter_username: "twitteruser"
 #github_username: "githubuser"
 #linkedin_username: "linkedinuser"
@@ -19,6 +19,8 @@ email: "kohrei_hz@gamil.com"
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 theme: "minima"
+minima:
+  skin: solarized-dark   # 这里改颜色
 
 rss: rss
 
