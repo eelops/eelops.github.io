@@ -1,7 +1,7 @@
 ---
 title: Ubuntu 24.04 强行部署 Detectron2 v0.3 全纪录
 author: eelops
-date: 2025-01-24 11:00:00 +0800
+date: 2026-01-24 11:00:00 +0800
 categories: [环境配置, 实战笔记]
 tags: [环境配置]
 ---
@@ -18,7 +18,7 @@ tags: [环境配置]
     1.  **硬件限制**：集显不支持 CUDA，必须强制将代码“阉割”为 CPU 模式运行。
     2.  **软件代差**：2024年的操作系统（Ubuntu 24.04）与2020年的代码库（PyTorch 1.7）存在巨大的编译器和链接库冲突。
 
--
+
 ---
 
 ## 2. 报错取证与深度分析
@@ -30,7 +30,7 @@ tags: [环境配置]
 *   **原因**：Pip 默认会在一个空的“隔离环境”中编译 Detectron2，但 Detectron2 的安装脚本必须依赖 PyTorch。
 *   **对策**：使用 `--no-build-isolation` 强行在当前有 PyTorch 的环境中编译。
 
->[!tips] Pip 为保证下载纯净环境，他会创建一个临时的虚拟环境。除了 Python 核心，什么都没有。如果没有文件`pyproject.toml`就会报错 `ModuleNotFoundError: No module named 'xxx'`
+ Pip 为保证下载纯净环境，他会创建一个临时的虚拟环境。除了 Python 核心，什么都没有。如果没有文件`pyproject.toml`就会报错 `ModuleNotFoundError: No module named 'xxx'`
 
 ### 错误二：系统头文件缺失 (系统兼容层)
 *   **现象**：`fatal error: crypt.h: No such file or directory`
