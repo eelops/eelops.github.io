@@ -9,8 +9,8 @@ tags: [环境配置]
 ## 1. 项目背景与核心冲突
 
 *   **项目目标**：复现 CED-FOOD (基于 Detectron2 v0.3)。
-    1. 项目论文：
-    2. 项目代码仓库：
+    1. 项目论文链接：[Boosting Few-Shot Open-Set Object Detection via Prompt Learning and Robust Decision Boundary](https://arxiv.org/pdf/2406.18443)
+    2. 项目代码仓库：[CED-FOOD](https://github.com/zjzwzw/CED-FOOD)
 *   **依赖环境**：Python 3.8 + PyTorch 1.7.1 (2020年时代的配置)。
 *   **当前系统**：Ubuntu 24.04 LTS (2024年发布，系统库极新)。
 *   **硬件情况**：**集成显卡 (Integrated Graphics)**，无 NVIDIA 独立显卡。
