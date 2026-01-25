@@ -2,8 +2,8 @@
 title: fscanf()面对不良文件输入的改进方法
 author: eelops
 date: 2025-08-10 21:30:00 +0800
-categories: [C, 实战笔记]
-tags: [file-input]
+categories: [C基础知识, 文件输入]
+tags: [C基础知识]
 ---
 
 ## 1. 问题背景：`%s` 的局限性

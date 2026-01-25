@@ -2,7 +2,7 @@
 title: Ubuntu 24.04 强行部署 Detectron2 v0.3 全纪录
 author: eelops
 date: 2026-01-24 11:00:00 +0800
-categories: [环境配置, 实战笔记]
+categories: [环境配置, 兼容问题]
 tags: [环境配置]
 ---
 
