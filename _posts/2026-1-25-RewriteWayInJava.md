@@ -1,5 +1,5 @@
 ---
-title: 从 .equals() 理解 Java 的运行机制、JVM 与类型转换
+title: 从 equals() 理解 Java 的运行机制、JVM 与类型转换
 author: eelops
 date: 2026-01-25 14:00:00 +0800
 categories: [Java面向对象基础, 方法重写]
